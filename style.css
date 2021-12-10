@@ -25,3 +25,17 @@ input {
     padding: 10px;
     border-radius: 40px;
 }
+
+button {
+    background: linear-gradient(to right, 
+    #ffee00,#85e705);
+    border: 1px solid black;
+    margin: 50px;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+p {
+    font-size: x-large;
+    color: white;
+}
