@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    height: 100vh;
+    background: linear-gradient(to right, 
+    #059669,#FDE68A);
+}
+
+h1 {
+    margin: 50px;
+    font-size: xx-large;
+    color: white;
+}
+
+input {
+    background: linear-gradient(to right, 
+    #ffee00,#85e705);
+    border: 1px solid black;
+    margin: 50px;
+    padding: 10px;
+    border-radius: 40px;
+}
