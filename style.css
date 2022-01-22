@@ -4,17 +4,23 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color: #8417af;
+}
+
 body {
     text-align: center;
     height: 100vh;
-    background: linear-gradient(to right, 
-    #059669,#FDE68A);
+    background: linear-gradient(to bottom, 
+    #c265e7,#FDE68A);
 }
 
-h1 {
-    margin: 50px;
-    font-size: xx-large;
-    color: white;
+#head {
+    background-color: var(--primary-color);
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    padding: 2rem;
+    color: whitesmoke;
 }
 
 input {

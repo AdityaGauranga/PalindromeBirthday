@@ -170,7 +170,7 @@ function reverseStr(str){
     }
     else {
       var [ctr, nextDate] = getNextPalDate(date);
-      result.textContent = `The next palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}, You missed it by ${ctr} days! ):`
+      result.textContent = `The next palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}, You missed it by ${ctr} days! :(`
     }
   }
   }
