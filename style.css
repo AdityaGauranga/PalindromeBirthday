@@ -41,40 +41,7 @@ button {
     border-radius: 40px;
 }
 
-p {
+#result {
     font-size: x-large;
-
-}
-
-/* lists */
-.nobullet {
-    list-style: none;
-}
-
-.list-item-inline {
-    display: inline;
-    padding: 0rem 0.5rem;
-}
-
-/** footers **/
-
-.footer {
-    background-color: var(--primary-color);
-    padding: 2rem 1rem;
-    text-align: center;
-    color: white;
-    border-top-right-radius: 2rem;
-}
-
-.footer .links {
-    color: white;
-}
-
-.footer .footer-header {
-    font-weight: bold;
-    font-size: large;
-}
-.footer ul {
-    padding-inline-start: 0px;
-    /* overwriting the user agent stylesheet from inspecting the footer element */
+    box-sizing: border-box;
 }
