@@ -166,11 +166,11 @@ function reverseStr(str){
     var isPalindrome = checkPalindromeForAllDateFormats(date);
   
     if (isPalindrome) {
-      result.textContent = "Woohoo! Your birthday is a Palindrome!"
+      result.textContent = "Oh wow! Your birthday is a Palindrome!"
     }
     else {
       var [ctr, nextDate] = getNextPalDate(date);
-      result.textContent = `The Next Palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}, You missed it by ${ctr} days!`
+      result.textContent = `The next palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}, You missed it by ${ctr} days! ):`
     }
   }
   }
